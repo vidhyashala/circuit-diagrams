@@ -15,6 +15,8 @@
 
 ## 1) Hybrid Dual Active Bridge + Boost Front-End (PID-Controlled)
 
+**Professional circuit diagram:** `figures/schematics/hybrid_dab_boost_schematic.svg`
+
 ### Innovation
 A **cascaded hybrid stage** combining a low-voltage interleaved boost pre-regulator and a high-frequency isolated dual active bridge (DAB), with a coordinated phase-shift/PWM supervisory law. This hybridization decouples wide input regulation from galvanic isolation and enables reduced transformer RMS current at low input voltage.
 
@@ -49,6 +51,8 @@ This topology integrates a two-phase interleaved boost with an isolated DAB stag
 ---
 
 ## 2) Interleaved High-Gain Converter with Coupled Inductors (Fuzzy Logic)
+
+**Professional circuit diagram:** `figures/schematics/interleaved_coupled_schematic.svg`
 
 ### Innovation
 A **three-phase interleaved quadratic gain converter** using coupled inductors and passive clamp-assisted energy recycling, yielding very high gain with reduced semiconductor stress.
@@ -88,6 +92,8 @@ The proposed interleaved coupled-inductor converter targets high gain and low ri
 
 ## 3) Multi-Port Bidirectional Converter (PV + Battery + Load) with Droop Control
 
+**Professional circuit diagram:** `figures/schematics/multiport_bidirectional_schematic.svg`
+
 ### Innovation
 A **single magnetic multi-port architecture** integrating PV port, battery bidirectional port, and regulated DC load port with decentralized droop-based power sharing and reduced conversion stages.
 
@@ -120,6 +126,8 @@ This converter merges three energy nodes into one isolated high-frequency stage,
 
 ## 4) LLC Resonant Converter with Synchronous Rectification (MPC-Controlled)
 
+**Professional circuit diagram:** `figures/schematics/llc_resonant_schematic.svg`
+
 ### Innovation
 A variable-frequency **LLC resonant topology** with synchronous secondary bridge and finite-control-set MPC to enforce ZVS/ZCS operating boundaries while minimizing transient settling time.
 
@@ -151,6 +159,8 @@ The LLC resonant converter is adapted for microgrid bus conversion by combining 
 ---
 
 ## 5) AI-Assisted Non-Isolated Converter (Neural Adaptive Control)
+
+**Professional circuit diagram:** `figures/schematics/ai_quadratic_schematic.svg`
 
 ### Innovation
 A **reduced-switch-count quadratic boost-derived converter** with neural-network adaptive duty correction trained online from operating data to reject disturbances and parameter drift.
@@ -218,3 +228,11 @@ For each topology, generate the following five publication-quality plots:
 - Report averaged efficiency from 20%-100% load sweep.
 - Compute THD on bus ripple current using FFT window aligned to integer switching cycles.
 - All plots exported as vector SVG for manuscript integration (can be converted to EPS/PDF in final submission).
+
+
+## Professional Diagram Pack
+- figures/schematics/hybrid_dab_boost_schematic.svg
+- figures/schematics/interleaved_coupled_schematic.svg
+- figures/schematics/multiport_bidirectional_schematic.svg
+- figures/schematics/llc_resonant_schematic.svg
+- figures/schematics/ai_quadratic_schematic.svg
