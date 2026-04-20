@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="100%" height="100%" fill="#fcfcfd"/>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a"/>
+  </marker>
+</defs>
+<text x="40" y="48" font-family="Arial" font-size="34" font-weight="bold" fill="#0f172a">AI-Controlled Reduced-Switch Quadratic Boost Converter</text>
+<rect x="60" y="240" width="170" height="80" rx="10" ry="10" fill="#eef2ff" stroke="#1f2937" stroke-width="2.5"/><text x="145.0" y="286.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Vin</text>
+<rect x="290" y="180" width="140" height="70" rx="10" ry="10" fill="#f8fafc" stroke="#1f2937" stroke-width="2.5"/><text x="360.0" y="221.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">L1</text>
+<rect x="290" y="300" width="140" height="70" rx="10" ry="10" fill="#f0fdf4" stroke="#1f2937" stroke-width="2.5"/><text x="360.0" y="341.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">S1</text>
+<rect x="490" y="240" width="150" height="80" rx="10" ry="10" fill="#fff7ed" stroke="#1f2937" stroke-width="2.5"/><text x="565.0" y="286.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Cx</text>
+<rect x="700" y="180" width="140" height="70" rx="10" ry="10" fill="#f8fafc" stroke="#1f2937" stroke-width="2.5"/><text x="770.0" y="221.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">L2</text>
+<rect x="700" y="300" width="140" height="70" rx="10" ry="10" fill="#f0fdf4" stroke="#1f2937" stroke-width="2.5"/><text x="770.0" y="341.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">S2</text>
+<rect x="900" y="240" width="120" height="80" rx="10" ry="10" fill="#f8fafc" stroke="#1f2937" stroke-width="2.5"/><text x="960.0" y="286.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">D1</text>
+<rect x="1080" y="240" width="110" height="80" rx="10" ry="10" fill="#fff7ed" stroke="#1f2937" stroke-width="2.5"/><text x="1135.0" y="286.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Co</text>
+<rect x="1250" y="240" width="180" height="80" rx="10" ry="10" fill="#eef2ff" stroke="#1f2937" stroke-width="2.5"/><text x="1340.0" y="286.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">400V Bus</text>
+<rect x="520" y="460" width="300" height="120" rx="10" ry="10" fill="#ede9fe" stroke="#1f2937" stroke-width="2.5"/><text x="670.0" y="526.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">NN + Safety Supervisor</text>
+<line x1="230" y1="280" x2="290" y2="215" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="230" y1="280" x2="290" y2="335" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="430" y1="215" x2="490" y2="280" stroke="#111827" stroke-width="3"/>
+<line x1="430" y1="335" x2="490" y2="280" stroke="#111827" stroke-width="3"/>
+<line x1="640" y1="280" x2="700" y2="215" stroke="#111827" stroke-width="3"/>
+<line x1="640" y1="280" x2="700" y2="335" stroke="#111827" stroke-width="3"/>
+<line x1="840" y1="280" x2="900" y2="280" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1020" y1="280" x2="1080" y2="280" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1190" y1="280" x2="1250" y2="280" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="670" y1="460" x2="360" y2="370" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="670" y1="460" x2="770" y2="370" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="70" y="640" font-family="Arial" font-size="20" fill="#374151">Switching: fixed-frequency PWM with dual-duty coordination and interlock constraints.</text>
+<text x="70" y="675" font-family="Arial" font-size="20" fill="#374151">Control innovation: neural adaptive duty estimator with bounded fallback for safe operation under uncertainty.</text>
+</svg>

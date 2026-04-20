@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="100%" height="100%" fill="#fcfcfd"/>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a"/>
+  </marker>
+</defs>
+<text x="40" y="48" font-family="Arial" font-size="34" font-weight="bold" fill="#0f172a">Hybrid Dual Active Bridge + Interleaved Boost (Professional Schematic)</text>
+<rect x="60" y="180" width="160" height="70" rx="10" ry="10" fill="#eef2ff" stroke="#1f2937" stroke-width="2.5"/><text x="140.0" y="221.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Vin
+24-48V</text>
+<rect x="280" y="120" width="190" height="80" rx="10" ry="10" fill="#f8fafc" stroke="#1f2937" stroke-width="2.5"/><text x="375.0" y="166.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Lb1 + S1</text>
+<rect x="280" y="250" width="190" height="80" rx="10" ry="10" fill="#f8fafc" stroke="#1f2937" stroke-width="2.5"/><text x="375.0" y="296.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Lb2 + S2</text>
+<rect x="530" y="185" width="180" height="80" rx="10" ry="10" fill="#fff7ed" stroke="#1f2937" stroke-width="2.5"/><text x="620.0" y="231.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Cboost</text>
+<rect x="760" y="150" width="220" height="150" rx="10" ry="10" fill="#f0fdf4" stroke="#1f2937" stroke-width="2.5"/><text x="870.0" y="231.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Primary H-Bridge
+Q1 Q2 Q3 Q4</text>
+<rect x="1030" y="160" width="180" height="130" rx="10" ry="10" fill="#fef3c7" stroke="#1f2937" stroke-width="2.5"/><text x="1120.0" y="231.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">HF Transformer
+Np:Ns</text>
+<rect x="1260" y="150" width="220" height="150" rx="10" ry="10" fill="#f0fdf4" stroke="#1f2937" stroke-width="2.5"/><text x="1370.0" y="231.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Secondary H-Bridge
+Q5 Q6 Q7 Q8</text>
+<rect x="1310" y="350" width="120" height="70" rx="10" ry="10" fill="#f8fafc" stroke="#1f2937" stroke-width="2.5"/><text x="1370.0" y="391.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Lf</text>
+<rect x="1470" y="350" width="110" height="70" rx="10" ry="10" fill="#fff7ed" stroke="#1f2937" stroke-width="2.5"/><text x="1525.0" y="391.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Co</text>
+<rect x="1440" y="470" width="140" height="70" rx="10" ry="10" fill="#eef2ff" stroke="#1f2937" stroke-width="2.5"/><text x="1510.0" y="511.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Vbus 400V</text>
+<line x1="220" y1="215" x2="280" y2="160" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="220" y1="215" x2="280" y2="290" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="470" y1="160" x2="530" y2="225" stroke="#111827" stroke-width="3"/>
+<line x1="470" y1="290" x2="530" y2="225" stroke="#111827" stroke-width="3"/>
+<line x1="710" y1="225" x2="760" y2="225" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="980" y1="225" x2="1030" y2="225" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1210" y1="225" x2="1260" y2="225" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1370" y1="300" x2="1370" y2="350" stroke="#111827" stroke-width="3"/>
+<line x1="1430" y1="385" x2="1470" y2="385" stroke="#111827" stroke-width="3"/>
+<line x1="1525" y1="420" x2="1525" y2="470" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="70" y="620" font-family="Arial" font-size="20" fill="#374151">Switching: 2-phase interleaved PWM (S1/S2, 180°) + DAB phase-shift modulation.</text>
+<text x="70" y="655" font-family="Arial" font-size="20" fill="#374151">Current flow: Vin -> Boost stage -> DAB primary -> HF transformer -> active rectification -> Lf/Co -> 400V bus.</text>
+</svg>

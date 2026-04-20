@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="100%" height="100%" fill="#fcfcfd"/>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a"/>
+  </marker>
+</defs>
+<text x="40" y="48" font-family="Arial" font-size="34" font-weight="bold" fill="#0f172a">Multi-Port Bidirectional Converter (PV + Battery + Load)</text>
+<rect x="60" y="120" width="180" height="80" rx="10" ry="10" fill="#eef2ff" stroke="#1f2937" stroke-width="2.5"/><text x="150.0" y="166.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">PV Port
+24-48V</text>
+<rect x="60" y="320" width="180" height="80" rx="10" ry="10" fill="#eef2ff" stroke="#1f2937" stroke-width="2.5"/><text x="150.0" y="366.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Battery Port
+36-60V</text>
+<rect x="300" y="120" width="220" height="90" rx="10" ry="10" fill="#f0fdf4" stroke="#1f2937" stroke-width="2.5"/><text x="410.0" y="171.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">PV Half-Bridge
+Qpv1,Qpv2</text>
+<rect x="300" y="320" width="220" height="90" rx="10" ry="10" fill="#f0fdf4" stroke="#1f2937" stroke-width="2.5"/><text x="410.0" y="371.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Bi-dir Bridge
+Qb1,Qb2</text>
+<rect x="610" y="200" width="250" height="160" rx="10" ry="10" fill="#fef3c7" stroke="#1f2937" stroke-width="2.5"/><text x="735.0" y="286.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Three-Winding
+HF Transformer</text>
+<rect x="940" y="200" width="230" height="120" rx="10" ry="10" fill="#f0fdf4" stroke="#1f2937" stroke-width="2.5"/><text x="1055.0" y="266.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Bus Active Rectifier
+Qr1..Qr4</text>
+<rect x="1240" y="210" width="100" height="70" rx="10" ry="10" fill="#f8fafc" stroke="#1f2937" stroke-width="2.5"/><text x="1290.0" y="251.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Lout</text>
+<rect x="1380" y="210" width="100" height="70" rx="10" ry="10" fill="#fff7ed" stroke="#1f2937" stroke-width="2.5"/><text x="1430.0" y="251.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">Co</text>
+<rect x="1330" y="360" width="200" height="80" rx="10" ry="10" fill="#eef2ff" stroke="#1f2937" stroke-width="2.5"/><text x="1430.0" y="406.0" font-family="Arial" font-size="22" text-anchor="middle" fill="#111827">400V Bus/Load</text>
+<line x1="240" y1="160" x2="300" y2="165" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="240" y1="360" x2="300" y2="365" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="520" y1="165" x2="610" y2="245" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="520" y1="365" x2="610" y2="285" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="860" y1="260" x2="940" y2="260" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1170" y1="260" x2="1240" y2="245" stroke="#111827" stroke-width="3"/>
+<line x1="1340" y1="245" x2="1380" y2="245" stroke="#111827" stroke-width="3"/>
+<line x1="1430" y1="280" x2="1430" y2="360" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="70" y="610" font-family="Arial" font-size="20" fill="#374151">Switching: phase-shifted bridges with synchronous bidirectional operation.</text>
+<text x="70" y="645" font-family="Arial" font-size="20" fill="#374151">Power flow: PV -> bus, battery <-> bus (charge/discharge), autonomous support via droop control.</text>
+</svg>
